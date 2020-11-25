@@ -1,0 +1,184 @@
+/* Default */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-weight: 700;
+    font-family: 'Roboto', Times, serif;
+    background-color: #f6f6f6;
+}
+#color{
+    color: #ffc107;
+    font-weight: 800;
+}
+
+/* intro section */
+.intro{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: animate 10s ease-in-out infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url('/images/service4.png');
+    }
+    25%{
+        background-image: url('/images/slider-1.jpg');
+    }
+    50%{
+        background-image: url('/images/slider-2.jpg');
+    }
+}
+
+.outer{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.wrap{
+    color: #ffffff;
+}
+.wrap h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.wrap p {
+    font-size: 20px;
+}
+
+#track:hover{
+    text-decoration: none;
+}
+
+/* about */
+#section2{
+    padding-top: 80px;
+    height: 100vh;
+}
+.underline{
+    height: 3px;
+    width: 8em;
+}
+/* services */
+#section3{
+    padding-top: 80px;
+}
+
+.services{
+    overflow-x: hidden;
+}
+.services .bg-dark, .services .bg-primary, .services .bg-danger{
+    min-height: 70vh;
+}
+#content img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#content{
+    display: inline-block;
+    text-align: justify;
+    color: #f4f4f4;
+}
+
+/* location nigeria */
+#section41{
+    padding-top: 100px;
+    height: 100vh;
+    background: linear-gradient(to right, #414345, #232526);
+    color: #fff;
+}
+
+.bg-img{
+    height: 60vh;
+    width: 100%;
+    background: url(/images/Lagos12.10630d39.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.overlay{
+    height: 60vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#section41 li :hover{
+    text-decoration: underline;
+}
+.fa-map-maker:hover{
+    text-decoration: none;
+}
+
+/* location USA */
+#section42{
+    padding-top: 100px;
+    height: 100vh;
+    background: linear-gradient(to right, #414345, #232526);
+    color: #fff;
+}
+
+#section42 .bg-img{
+    height: 60vh;
+    width: 100%;
+    background: url(/images/dallas-texas.e74c456d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section42 li :hover{
+    text-decoration: underline;
+}
+
+/* location GHANA */
+#section43{
+    padding-top: 100px;
+    height: 100vh;
+    background: linear-gradient(to right, #414345, #232526); 
+    color: #fff;
+}
+
+#section43 .bg-img{
+    height: 60vh;
+    width: 100%;
+    background: url(/images/Accra.3bf4e938.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section43 li :hover{
+    text-decoration: underline;
+}
+
+/* contact us */
+#section5{
+    padding-top: 50px;
+    height: 120vh;
+}
+
+@media (max-width: 768px){
+    body{
+        font-size: 18px;
+    }
+
+    #section5{
+        margin-bottom: 20em;
+    }
+    footer{
+        text-align: center;
+    }
+    
+}
+
+
+
